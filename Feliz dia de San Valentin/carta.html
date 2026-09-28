@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Carta Para Ti ❤️</title>
+
+    <!-- CSS EXTERNO -->
+    <link rel="stylesheet" href="carta.css">
+</head>
+<body>
+        <div class="petalos"></div>
+
+    <h1>Feliz Dia de San Valentín, Mi Amor 💘</h1>
+    <h2 id="fecha"></h2>
+    <div class="mensaje">
+        <p>Mi amor 💕</p>
+        <p>Hoy quiero hablarte con el corazón en la mano, 
+        porque este día celebra el amor… 
+        pero yo te celebro a ti todos los días 💖. 
+        Agradezco tanto que estés en mi vida, 
+        porque desde que llegaste todo se siente 
+        más bonito, más ligero y más verdadero ✨.</p>
+        <p>Me encanta cómo, sin darte cuenta, tienes el poder de cambiar mi día completo con un solo mensaje 📱💗, con tu risa 😊, con tu forma de preocuparte por mí y con esos detalles pequeños que para otros pueden parecer simples, pero para mí son gigantes 🌷. Contigo aprendí que el amor vive en lo cotidiano: en preguntar si comí 🥺🍽️, en desear buenas noches 🌙, en cuidar y dejarse cuidar 🤍.</p>
+        <p>Gracias por tu paciencia 🫶, por tu ternura 💞 y por entenderme incluso cuando no sé explicar lo que siento. Gracias por escucharme 🎧, por apoyarme 🙌 y por no soltar mi mano cuando más lo necesito 🤝. Tu forma de estar conmigo vale oro 💛.</p>
+        <p>Amo cada recuerdo que construimos juntos 📸✨ — nuestras conversaciones largas 🗣️💓, las risas que salen sin aviso 😂, los momentos tranquilos donde no hace falta decir nada 🤫❤️ y esas locuras que solo tú y yo entendemos 🤭. Cada instante contigo se guarda en mi memoria como un tesoro 🧡.</p>
+        <p>Quiero que nunca olvides lo especial que eres para mí 🌹. No solo por lo que haces, sino por lo que eres: tu manera de pensar, de sentir, de querer bonito… todo en ti tiene una luz propia que me enamora cada día más 💫.</p>
+        <p>Sueño con seguir caminando contigo 🚶‍♂️🚶‍♀️, seguir creciendo, aprendiendo y eligiéndote siempre 💍💌. No prometo ser perfecto, pero sí darte un amor sincero, leal y lleno de cariño ❤️‍🔥.</p>
+        <p>Te amo hoy 💗, mañana 💞 y siempre 💘.</p>
+        <p>Feliz San Valentín, mi vida 🌹✨</p>
+        <p>Para ti, My Darly Jacely 💖</p>
+        <p>Con todo mi corazón 💘</p>
+        <p>Tu Luis Angel💞.</p>
+        <p class="iniciales">L ♥ D</p>
+            <h2 id="frase"></h2>     <!-- MENSAJE ROMÁNTICO -->
+            <h2 id="contador"></h2>
+        </p>
+    </div>
+
+<!-- CONTENEDOR GENERAL -->
+<div class="marco-principal">
+
+    <!-- 📸 GALERÍA -->
+<div class="galeria">
+
+        <img src="assets/img/TAMBO.jpeg"
+            class="foto-tambo foto-click"
+            data-msg="Nuestro recuerdo especial 💞. Porque no importa cuántos días pasen, cada momento que guardo junto a ti se convierte en mi tesoro más valioso. Gracias por escribir esta historia conmigo, segundo a segundo. 📜✨🌹">
+
+        <img src="assets/img/YO Y ELLA .jpeg"
+            class="foto-yo foto-click"
+            data-msg="Tú y yo — mi lugar favorito 💘. Podría recorrer el mundo entero y siempre elegiría volver a ti, porque en tu mirada encuentro la paz que tanto buscaba. Eres mi felicidad, mi presente y todo mi futuro. 🧸🌷💫">
+
+        <img src="assets/img/DARLY.jpeg"
+            class="foto-darly foto-click"
+            data-msg="Tu sonrisa es mi paz, el latido que me calma y la razón por la que cada mañana despierto con ganas de comerme el mundo a tu lado. Eres mi San Valentín eterno y mi lugar favorito en el universo. 🌹🧸✨">
+
+        <img src="assets/img/MY LOVE.jpeg"
+            class="foto-love foto-click"
+            data-msg="Amarte es lo más bonito que me pasó 💍. Tu sonrisa es mi paz y tenerte a mi lado es el regalo más grande que la vida me pudo dar. Cada segundo contigo es un recuerdo que guardo en el alma para siempre. 🌷📜💍">
+
+    </div>
+        <div id="modalFoto" class="modal">
+        <div class="modal-contenido">
+            <span class="cerrar">&times;</span>
+            <img id="modalImg">
+            <p id="modalTexto"></p>
+        </div>
+    </div>
+
+
+        <!-- 📷 FOTOS DISPERSAS DECORATIVAS -->
+    <!-- 📷 FOTOS DISPERSAS DECORATIVAS -->
+    <img src="assets/img/atardecer.jpeg"
+        class="foto-dispersa f1 foto-click"
+        data-msg="Contigo aprendí que los atardeceres no son el final del día, sino la forma en que el cielo nos dice lo bonito que es empezar un mañana a tu lado. 🌅✨ Eres mi luz cuando el sol se oculta y el paisaje más hermoso que mis ojos han visto jamás. Te amo hoy, mañana y siempre. 💍🧡🌷">
+
+    <img src="assets/img/DYL.jpeg"
+        class="foto-dispersa f2 foto-click"
+        data-msg="Siempre juntos 🥰. Porque amarte es como mirar las estrellas: siempre encuentro una nueva razón para admirarte. Eres la melodía de mi corazón y la luz que guía mis mejores días. Estar unidos no es solo una palabra, es el compromiso de mi alma para cuidarte y hacerte feliz cada segundo de mi existencia. 💍🌌🌷">
+
+    <img src="assets/img/huanchaco.jpeg"
+        class="foto-dispersa f3 foto-click"
+        data-msg="Momentos inolvidables 🌊. Dicen que el mar es infinito, pero se queda pequeño comparado con la inmensidad de lo que siento cuando estoy a tu lado 🧿. Así como las olas siempre encuentran el camino de regreso a la orilla, mi corazón siempre vuelve a ti, porque eres el único lugar donde me siento realmente en casa 🏠💖.
+
+Ese día en la playa, el viento se llevó nuestras palabras y el agua borró nuestras huellas en la arena, pero lo que quedó grabado a fuego en mi memoria es la forma en que me miraste mientras el sol se ocultaba 🌅💫. Gracias por ser mi cómplice en esta aventura llamada vida, por llenar cada rincón de mi existencia con tu magia y por elegirme para caminar junto a ti 💍🌌💙. Te amo mucho más de lo que las palabras pueden explicar ✨🌹.">
+
+    <img src="assets/img/polera.jpeg"
+        class="foto-dispersa f4 foto-click"
+        data-msg="Tu sonrisa es mi lugar seguro 💖. Es la curva más bonita que mis ojos han visto y la melodía que hace que mi corazón lata con más fuerza. A tu lado, no necesito nada más, porque en tu sonrisa encuentro todas las respuestas y toda la felicidad que siempre busqué. Gracias por dejarme ser parte de tu vida y por hacerme el hombre más afortunado al verte brillar. 🌹✨🌷">
+
+    <img src="assets/img/Mansiche.jpeg"
+        class="foto-dispersa f5 foto-click"
+        data-msg="Cada día contigo es especial ✨. Contigo aprendí que la verdadera felicidad no es un destino al cual llegar, sino la magia de cada pequeño paso que damos de la mano. Gracias por ser mi calma en los días grises, mi alegría constante y el motivo detrás de mis sonrisas más sinceras 🧸💖.
+
+Sin duda alguna, eres la mejor parte de mi realidad y el regalo más bonito que la vida me ha dado. No importa qué pase mañana, mientras sea junto a ti, cada segundo vale una eternidad. Eres el destino al que siempre quiero llegar y el camino que nunca quiero dejar de recorrer 🌌✨💍.">
+
+    <img src="assets/img/AMOR.jpeg"
+        class="foto-dispersa f6 foto-click"
+        data-msg="Te amo mucho más de lo que imaginas ❤️. A veces me quedo mirándote y me pregunto cómo tuve la suerte de encontrarte; eres mi pensamiento favorito al despertar y mi paz antes de dormir 🌙✨. Gracias por ser ese lugar seguro al que siempre quiero volver y por hacerme tan feliz con solo una sonrisa. Mi amor por ti no tiene límites, es un viaje infinito que apenas comienza a tu lado, porque contigo aprendí que el amor de verdad es cuidado, risas y un 'siempre juntos' para toda la vida 🧿💍🌷.">
+
+
+</div>
+
+<audio id="musica" loop>
+    <source src="assets/music/until.mpeg" type="audio/mpeg">
+</audio>
+
+
+
+
+<script src="inicio.js"></script>
+</body>
+</html>
